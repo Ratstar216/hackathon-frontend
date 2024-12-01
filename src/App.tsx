@@ -7,6 +7,7 @@ import Signout from './Signout';
 import SignupForm from './SignupForm';
 import SigninForm from './SigninForm';
 import Contents from './Contents';
+import Timeline from './Timeline';
 
 function App() {
   const [loginUser, setLoginUser] = useState(fireAuth.currentUser);
@@ -26,7 +27,11 @@ function App() {
       <Signout />
       {loginUser ? <Contents /> : null}
       </div>
+      <div className="Timeline">
+      <Timeline />
+      </div>
     </div>
+    
   );
 }
 

@@ -1,0 +1,42 @@
+/* Tweet.css */
+.tweet {
+    border-bottom: 1px solid #e6ecf0; /* 下線を追加 */
+    padding: 10px 15px; /* パディングを追加 */
+    display: flex;
+  }
+  
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%; /* 丸いアバター */
+    margin-right: 10px;
+  }
+  
+  .content {
+    flex: 1; /* 内容部分を伸縮可能にする */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: baseline; /* ユーザー名とハンドルを揃える */
+    margin-bottom: 5px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .handle {
+    color: #657786; /* ハンドルの色をグレーに */
+    margin-right: 5px;
+  }
+  
+  .timestamp {
+    color: #657786; /* タイムスタンプの色をグレーに */
+    font-size: smaller;
+  }
+  
+  .tweet-text {
+    white-space: pre-wrap; /* 改行を保持 */
+  }
