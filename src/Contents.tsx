@@ -6,5 +6,5 @@ export const Contents: React.FC = () => {
     );
   };
   
-  export default Contents;
+export default Contents;
   
